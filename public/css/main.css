@@ -16,6 +16,7 @@ body {
 }
 
 #poster {
+    width: 800px;
     display: flex;
     flex-direction: column;
 }
@@ -49,6 +50,7 @@ body {
     display: flex;
     background-color: black;
 }
+
 .upper__circle {
     width: 45%;
     height: 100%;
@@ -68,19 +70,20 @@ body {
     background-color: red;
     border-radius: 50%;
 }
-.lower {
 
+.lower {
     height: 30vh;
     display: flex;
     background-color: black;
 }
+
 .lower__circle {
     width: 100%;
     height: 100%;
     background-color: #fcac0d;
     border-bottom-left-radius: 100%;
     border-bottom-right-radius: 100%;
-  }
+}
 
 
 
@@ -97,27 +100,24 @@ body {
     vertical-align: middle;
 }
 
-.menu {
-    background-color: palegreen;
-    width: 25%;
-    height: 100%;
-}
-
 .content {
     background-color: black;
     width: 50%;
     height: 100%;
-  
+
 
 }
-.smalltext{
+
+.smalltext {
     left: 20px;
     vertical-align: top;
     font-size: 0.8rem;
 }
-.titletext{
+
+.titletext {
     text-align: center;
     vertical-align: center;
-    font-size:4rem;
+    font-size: 4rem;
 }
+
 @media screen and (max-width:700px) {}
