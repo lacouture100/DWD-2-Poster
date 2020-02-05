@@ -26,7 +26,10 @@ body{
     justify-content: flex-end;
     list-style: none;
 }
-
+.nav__item > a {
+    color: white;
+    text-decoration: none;
+  }
 .nav__item:not(:last-child) {
     margin: 0px 5px 0px 5px;
 }

@@ -1,0 +1,110 @@
+
+*, *::after, *::before {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  /*  http://tachyons.io/docs/typography/scale/ */
+  html{
+    font-size: 16px;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .debug {
+      border: 1px solid black;
+  }
+  
+  .nav {
+      padding: 1rem 0.5rem 1rem 0.5rem;
+      background-color: slateblue;
+  }
+  
+  .nav__list {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+  }
+  .nav__item > a {
+      color: white;
+      text-decoration: none;
+    }
+  .nav__item:not(:last-child) {
+      margin: 0px 5px 0px 5px;
+  }
+  
+  .header {
+      padding: 1rem 0.5rem 1rem 0.5rem;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.fW44Ont_sw8tNlEeiIG0kAHaFj%26pid%3DApi&f=1);
+      background-position: center;
+      background-size:cover; 
+      background-repeat:no-repeat;
+  }
+  
+  .header__title {
+      text-align: center;
+  }
+  
+  .main {
+      padding: 1rem 0.5rem 1rem 0.5rem;
+      height: 50vh;
+      display: flex;
+  }
+  .middle{
+        padding: 1rem 0.5rem 1rem 0.5rem;
+        height: 30vh;
+        display: flex;
+  }
+  
+  .footer {
+      padding: 1rem 0.5rem 1rem 0.5rem;
+      display: flex;
+  }
+  
+  .footer__section {
+      width: 40%;
+  }
+  
+  .footer__content {
+      text-align: center;
+  }
+  
+  .menu {
+      background-color: palegreen;
+      width: 25%;
+      height: 100%;
+  }
+  
+  .content {
+      background-color: tomato;
+      width: 50%;
+      height: 100%;
+      justify-content: space-around;
+  }
+  
+  .aside {
+      background-color: purple;
+      width: 25%;
+      height: 100%;
+  }
+  
+  .bg-purple{
+      background-color: purple;
+  }
+  
+  .bg-yellow{
+      background-color: yellow;
+  }
+  
+  @media screen and (max-width:700px) {
+
+  }
+  
+  
+   
