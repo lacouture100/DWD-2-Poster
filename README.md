@@ -80,7 +80,7 @@ I then proceeded to define the sections inside of each area. There was a differe
 ![Specific circles.](assets/process_4.jpg)
 ![Top,middle and bottom classes.](assets/process_9.jpg)
 
-After I finished with the layout structure and the main geometries in place, I focused on each of the texts. First I did the middle texts and then I proceeded with the bottom texts. I left the font for the end, using an online tool to identify the font.
+After I finished with the layout structure and the main geometries in place, I focused on each of the texts. First I did the middle texts and then I proceeded with the bottom texts. I left the font for the end, using an [online tool]:https://www.myfonts.com/WhatTheFont/ to identify the font.
 
 
 ![Font identified.](fontAnalysis_2.jpg)
