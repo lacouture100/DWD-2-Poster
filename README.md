@@ -70,8 +70,8 @@ I started by making a sketch to identify the main parts in the poster. I found t
 
 As we can see in the images above, the layout was not symmetrical. However, I decided to maintain a vertical symmetry because of my own taste.This can be modifiec at any time in the height parameter of the classes in CSS. In any case, I started by creating my three main areas. My top, middle, and bottom classes in CSS.
 
-![Top,midddle and bottom classes.](assets/process_1.jpg)
-![Top,midddle and bottom classes.](assets/process_2.jpg)
+![Top,middle and bottom classes.](assets/process_1.jpg)
+![Top,middle and bottom classes.](assets/process_2.jpg)
 
 I then proceeded to define the sections inside of each area. There was a different circle for each of the top and middle sections, as well as a triangle only present for the top section. The text visible in the middle area contained a small text and a larger, title text. The bottom area contained the same small text as the middle area on top of a big half circle.
 
@@ -80,15 +80,23 @@ I then proceeded to define the sections inside of each area. There was a differe
 ![Specific circles.](assets/process_4.jpg)
 ![Top,middle and bottom classes.](assets/process_9.jpg)
 
+After I finished with the layout structure and the main geometries in place, I focused on each of the texts. First I did the middle texts and then I proceeded with the bottom texts. I left the font for the end, using an online tool to identify the font.
+
+
+![Font identified.](fontAnalysis_2.jpg)
+
+Finally, with the text in the HTML structure I could organize it inside the poster to fit the target layout.
+
+![Final Result.](assets/process_10.jpg)
+
+The only thing left to do was to add some interactions intergrated with JS.
+
+
 
 ## Challenges & Struggles
- - I struggled with aligning objects to the center, managing their size and how much they would stretch or not according to the viewport.
-  - I takes me some time to realize how to mix absolute, fixed, relative and other positions in combination with the grid and flex-box layout.
+
 
 ## Questions
- - When I created a <div> with `width : 100%` , it worked perfectly. However when I introduced the `vertical : 100%` parameter the <div> would no appear. Why does this happen?
-  - Which is a better way to handle the layout, through grids or through flex-box?
-  - When organizaing content in a webpage, what should be left to JS and what should be controlled with CSS?
 
 
 ## References
