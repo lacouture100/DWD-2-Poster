@@ -11,7 +11,6 @@ This project consists on making a webpage with CSS, HTML, and JS together in ord
 
 ![Mike Joyce's "The Velvet Underground" poster](assets/MikeJoyce-velvetUnderground.jpg)
 
-
 ## Setup
 ***
 
@@ -63,10 +62,13 @@ To develop this document, you can follow the steps provided below:
 ## Process & Documentation
 
 
-I started by making a sketch to identify the main parts in the poster. I found three main areas, the top, the middle, and the bottom. The top and middle areas had a similar two column layout with geometry and text, and the bottom area was a full half circle with some text layed out in the same position as the superior sections.
+I started by making a sketch to identify the main sections and colors in the poster. I found three main areas, the top, the middle, and the bottom. The top and middle areas had a similar two column layout with geometry and text, and the bottom area was a full half circle with some text layed out in the same position as the superior sections.
 
 ![Grid layout on poster.](assets/layoutAnalysis_1.jpg)
 ![Layout sketch.](assets/layoutSketch.jpg)
+![Identified color HEX code.](assets/process_6.jpg)
+![Identified color HEX code.](assets/process_7.jpg)
+
 
 As we can see in the images above, the layout was not symmetrical. However, I decided to maintain a vertical symmetry because of my own taste.This can be modifiec at any time in the height parameter of the classes in CSS. In any case, I started by creating my three main areas. My top, middle, and bottom classes in CSS.
 
