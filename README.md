@@ -96,6 +96,9 @@ The only thing left to do was to add some interactions intergrated with JS.
 
 
 ## Challenges & Struggles
+  
+  - At first my JS code would only work with the 'click' event.
+  - Flex makes it easy to control parameters. However, it would be more effective to save local and/or global variables to make presets for these parameters.
 
 
 ## Questions
