@@ -58,6 +58,7 @@ window.addEventListener('DOMContentLoaded', function () {
       $posterSection.classList.remove('poster')
       $posterSection.classList.add('poster__alt__text')
       
+      
     } else {
       $posterSection.classList.remove('poster__alt__text')
       $posterSection.classList.add('poster')

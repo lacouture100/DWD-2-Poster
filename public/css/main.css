@@ -12,14 +12,13 @@ html {
 }
 
 
-.main{
+.main {
     display: flex;
     flex-direction: row;
 }
 
-body {
+body {}
 
-}
 .poster {
     position: absolute;
     width: 800px;
@@ -28,6 +27,7 @@ body {
     font-family: 'BasicCommercial LT Bold', Helvetica, sans-serif;
     color: blanchedalmond;
 }
+
 .poster__alt__text {
     position: absolute;
     width: 800px;
@@ -79,10 +79,10 @@ body {
 }
 
 .triangle {
-    width:0; 
-    height:100px; 
-    border-left:440px solid #00b2a2;
-    border-top:385px solid transparent;
+    width: 0;
+    height: 100px;
+    border-left: 440px solid #00b2a2;
+    border-top: 385px solid transparent;
 }
 
 .middle {
@@ -97,20 +97,20 @@ body {
     background-color: red;
     border-radius: 50%;
 }
+
 .middle__circle__blue {
     width: 45%;
     height: 100%;
-    background-color: blue ;
+    background-color: blue;
     border-radius: 50%;
 }
+
 .middle__smalltext {
     padding-left: 15px;
     padding-top: 20px;
-    height:60%;
+    height: 60%;
     text-align: left;
     font-size: 0.8rem;
-    
-
 }
 
 .middle__titletext {
@@ -135,6 +135,7 @@ body {
     border-radius: 0px 0px 500px 500px;
 
 }
+
 .bottom__halfcircle__yellow {
     width: 100%;
     height: 100%;
@@ -142,10 +143,11 @@ body {
     border-radius: 0px 0px 500px 500px;
 
 }
+
 .bottom__smalltext {
     padding-left: 380px;
     padding-top: 20px;
-    height:60%;
+    height: 60%;
     font-size: 0.8rem;
     color: black;
 }
@@ -161,10 +163,11 @@ body {
     background-color: black;
     width: 55%;
     height: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
 
 }
+
 .footer {
     padding-top: 20px;
     font-size: 0.8rem;
@@ -173,4 +176,64 @@ body {
 
 
 
-@media screen and (max-width:700px) {}
+@media screen and (max-width:800px) {
+
+    .poster {
+        position: absolute;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'BasicCommercial LT Bold', Helvetica, sans-serif;
+        color: blanchedalmond;
+    }
+
+    .top {
+        height: 200px;
+        display: flex;
+        background-color: black;
+    }
+    .triangle {
+        width: 0;
+        height: 60px;
+        border-left: 220px solid #00b2a2;
+        border-top: 200px solid transparent;
+    }
+    .middle {
+        height: 200px;
+        display: flex;
+        background-color: white;
+    }
+
+    .middle__smalltext {
+        padding-left: 15px;
+        padding-top: 10px;
+        height: 60%;
+        text-align: left;
+        font-size: 0.4rem;
+    }
+
+    .middle__titletext {
+        padding-left: 15px;
+        padding-bottom: 10px;
+        text-align: left;
+        vertical-align: middle;
+        font-size: 2rem;
+    }
+
+    .bottom {
+        height: 200px;
+        display: flex;
+        background-color: black;
+    }
+
+    .bottom__smalltext {
+        padding-left: 190px;
+        padding-top: 10px;
+        height: 60%;
+        font-size: 0.4rem;
+        color: black;
+    }
+}
+
+
+
