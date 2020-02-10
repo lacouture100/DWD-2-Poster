@@ -14,7 +14,7 @@ This project consists on making a webpage with CSS, HTML, and JS together in ord
 ## Setup
 ***
 
- - To open the webpage you can download the files included in the repository and open the **index.html** file with your preferred browser.
+ - To open the webpage you can download the files included in the repository and open the **index.html** file with your preferred web browser.
 
 ### Prerequisites
 
@@ -62,18 +62,26 @@ The workflow started with identifying which was the general layout of the poster
 ## Process & Documentation
 
 
-I started by making a sketch to identify the main sections and colors in the poster. I found three main areas, the top, the middle, and the bottom. The top and middle areas had a similar two column layout with geometry and text, and the bottom area was a full half circle with some text layed out in the same position as the superior sections.
+I started by making a sketch to identify the main sections and colors in the poster. For the color HEX codes I used (). I found three main areas, the top, the middle, and the bottom. The top and middle areas had a similar two column layout with geometry and text, and the bottom area was a full half circle with some text layed out in the same position as the superior sections.
 
 ![Grid layout on poster.](assets/layoutAnalysis_1.jpg)
+Grid layout on poster.
 ![Layout sketch.](assets/layoutSketch.jpg)
+Layout sketch.
 ![Identified color HEX code.](assets/process_6.jpg)
+Identified color HEX code.
 ![Identified color HEX code.](assets/process_7.jpg)
+Identified color HEX code.
 
 
 As we can see in the images above, the layout was not symmetrical. However, I decided to maintain a vertical symmetry because of my own taste.This can be modifiec at any time in the height parameter of the classes in CSS. In any case, I started by creating my three main areas. My top, middle, and bottom classes in CSS.
 
 ![Top,middle and bottom classes.](assets/process_1.jpg)
+Top, middle and bottom classes.
 ![Top,middle and bottom classes.](assets/process_2.jpg)
+Top,middle and bottom classes preview.
+
+***
 
 I then proceeded to define the sections inside of each area. There was a different circle for each of the top and middle sections, as well as a triangle only present for the top section. The text visible in the middle area contained a small text and a larger, title text. The bottom area contained the same small text as the middle area on top of a big half circle.
 
@@ -126,4 +134,4 @@ I decided on five interactions:
 
 ## References
 
-- ![Mike Joyce's "The Velvet Underground" poster](assets/MikeJoyce-velvetUnderground.jpg)
+- Mike Joyce's "The Velvet Underground" poster ![Mike Joyce's "The Velvet Underground" poster](assets/MikeJoyce-velvetUnderground.jpg)
