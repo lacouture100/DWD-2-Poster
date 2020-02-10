@@ -62,7 +62,7 @@ The workflow started with identifying which was the general layout of the poster
 ## Process & Documentation
 
 
-I started by making a sketch to identify the main sections and colors in the poster. For the color HEX codes I used (). I found three main areas, the top, the middle, and the bottom. The top and middle areas had a similar two column layout with geometry and text, and the bottom area was a full half circle with some text layed out in the same position as the superior sections.
+I started by making a sketch to identify the main sections and colors in the poster. For the color HEX codes I used the [Color from image tool](https://html-color-codes.info/colors-from-image). I found three main areas, the top, the middle, and the bottom. The top and middle areas had a similar two column layout with geometry and text, and the bottom area was a full half circle with some text layed out in the same position as the superior sections.
 
 ![Grid layout on poster.](assets/layoutAnalysis_1.jpg)
 Grid layout on poster.
