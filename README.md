@@ -14,7 +14,7 @@ This project consists on making a webpage with CSS, HTML, and JS together in ord
 ## Setup
 ***
 
- - To open the webpage you can download the files included in the repository and run the **index.html** file in the root folder.
+ - To open the webpage you can download the files included in the repository and open the **index.html** file with your preferred browser.
 
 ### Prerequisites
 
@@ -57,7 +57,7 @@ To develop this document, you can follow the steps provided below:
 ***
 # Notes & Process
 
-
+The workflow started with identifying which was the general layout of the poster. Later on, I built the layout using flexbox, make  div for each of the sections I identified. After filling them up accordingly with geometric figures and color, I continued by implementing text. Finally, I coded the interactions with each of the elements using vanilla JS and applied the correct media queries according to the viewport size.
 
 ## Process & Documentation
 
@@ -84,25 +84,46 @@ I then proceeded to define the sections inside of each area. There was a differe
 
 After I finished with the layout structure and the main geometries in place, I focused on each of the texts. First I did the middle texts and then I proceeded with the bottom texts. I left the font for the end, using an [online tool]:https://www.myfonts.com/WhatTheFont/ to identify the font.
 
-
 ![Font identified.](fontAnalysis_2.jpg)
 
 Finally, with the text in the HTML structure I could organize it inside the poster to fit the target layout.
 
 ![Final Result.](assets/process_10.jpg)
 
-The only thing left to do was to add some interactions intergrated with JS.
+After finishing the layout, I proceeded with the interaction made with JS. 
+I decided on five interactions:
+ -   Once the HTML is loaded an alert will appear
+
+![Load alert](assets/posterInteraction1.gif)
+
+ -   When you click on the top circle it changes color between white and red.
+
+![Top circle click](assets/posterInteraction2.gif)
+
+ -   When you double click on the middle circle it changes color between red and blue.
+
+![Middle circle click](assets/posterInteraction3.gif)
+
+ -   When you hover over the bottom half circle it changes color between yellow and red.
+
+![Bottom half circle click](assets/posterInteraction4.gif)
+
+ -   When you scroll with the mouse wheel the middle text changes between white and green.
+
+![Test scroll](assets/posterInteraction5.gif)
 
 
 
 ## Challenges & Struggles
   
   - At first my JS code would only work with the 'click' event.
-  - Flex makes it easy to control parameters. However, it would be more effective to save local and/or global variables to make presets for these parameters.
+  - The "onkeypress" and "scroll" events did not work for me. I replaced the "scroll" event for the "wheel" event to have the same effect.
 
 
 ## Questions
 
+ - My main question is why are some events registered and others are not? Is it a browser compatibility issue?
 
 ## References
 
+- ![Mike Joyce's "The Velvet Underground" poster](assets/MikeJoyce-velvetUnderground.jpg)
