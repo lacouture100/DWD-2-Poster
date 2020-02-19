@@ -68,8 +68,6 @@ I started by making a sketch to identify the main sections and colors in the pos
 Grid layout on poster.
 ![Layout sketch.](assets/layoutSketch.jpg)
 Layout sketch.
-![Identified color HEX code.](assets/process_6.JPG)
-Identified color HEX code.
 ![Identified color HEX code.](assets/process_7.JPG)
 Identified color HEX code.
 
@@ -77,7 +75,6 @@ Identified color HEX code.
 As we can see in the images above, the layout was not symmetrical. However, I decided to maintain a vertical symmetry because of my own taste.This can be modifiec at any time in the height parameter of the classes in CSS. In any case, I started by creating my three main areas. My top, middle, and bottom classes in CSS.
 
 ![Top,middle and bottom classes.](assets/process_1.JPG)
-Top, middle and bottom classes.
 ![Top,middle and bottom classes.](assets/process_2.JPG)
 Top,middle and bottom classes preview.
 
@@ -92,7 +89,7 @@ I then proceeded to define the sections inside of each area. There was a differe
 
 After I finished with the layout structure and the main geometries in place, I focused on each of the texts. First I did the middle texts and then I proceeded with the bottom texts. I left the font for the end, using an [online tool]:https://www.myfonts.com/WhatTheFont/ to identify the font.
 
-![Font identified.](fontAnalysis_2.JPG)
+![Font identified.](fontAnalysis_1.JPG)
 
 Finally, with the text in the HTML structure I could organize it inside the poster to fit the target layout.
 
