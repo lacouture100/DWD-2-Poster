@@ -89,7 +89,7 @@ I then proceeded to define the sections inside of each area. There was a differe
 
 After I finished with the layout structure and the main geometries in place, I focused on each of the texts. First I did the middle texts and then I proceeded with the bottom texts. I left the font for the end, using an [online tool]:https://www.myfonts.com/WhatTheFont/ to identify the font.
 
-![Font identified.](fontAnalysis_1.JPG)
+![Font identified.](assets/fontAnalysis_1.JPG)
 
 Finally, with the text in the HTML structure I could organize it inside the poster to fit the target layout.
 
